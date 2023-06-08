@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "template-product": {
+      "type": "template-product",
+      "blocks": {
+        "58913963-afac-40f1-aaef-9a8b2084dc99": {
+          "type": "product_description",
+          "settings": {
+            "title": "Description"
+          }
+        },
+        "88e3ce84-9235-48f6-b9bc-2f4d2db540e0": {
+          "type": "richtext",
+          "settings": {
+            "title": "Features",
+            "description": "<p><strong>Premium quality<\/strong><\/p><p>The product is made from premium, high-quality materials<\/p><p><strong>Bestseller<\/strong><\/p><p>A top-selling item loved by our customers<\/p><p><strong>Tear-away tag<\/strong><\/p><p>Easily removable tear-away tag that allows you to add a custom inside label<\/p>"
+          }
+        },
+        "fed87613-1d35-4619-b789-b03a6684a3df": {
+          "type": "richtext",
+          "settings": {
+            "title": "Style and fit",
+            "description": "<p><strong>Comfortable<\/strong><\/p><p>The fabric and fit of this item are extra comfy<\/p><p><strong>Regular Fit<\/strong><\/p><p>Standard length, the fabric easily gives into movement<\/p>"
+          }
+        },
+        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5": {
+          "type": "richtext",
+          "settings": {
+            "title": "Shipping & Returns",
+            "description": "<p>Free Standard Shipping Over $50<\/p><p>30-Day Return Policy! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "58913963-afac-40f1-aaef-9a8b2084dc99",
+        "88e3ce84-9235-48f6-b9bc-2f4d2db540e0",
+        "fed87613-1d35-4619-b789-b03a6684a3df",
+        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5"
+      ],
+      "settings": {
+        "title_size": "h2",
+        "show_vendor": false,
+        "show_share_btn": true,
+        "gallery_img_orientation": "square",
+        "gallery_img_border": "rounded",
+        "form_light_bg": true,
+        "form_show_buy_btn": true,
+        "pt": 10,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "a048e36f-1b13-4ad9-9fdd-e392f0e9489c": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0.1,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "5ca5d2db-2cba-4423-b260-a6a8749b20a8": {
+      "type": "recommended-products",
+      "settings": {
+        "bg_color": "",
+        "text_align": "text-center",
+        "limit": 8,
+        "title": "YOU MIGHT LIKE",
+        "title_size": "h3",
+        "description": "",
+        "description_size": "fs-6",
+        "product_img_orientation": "square",
+        "product_img_border": "rounded",
+        "product_title_size": "h6",
+        "mobile_scroll": true,
+        "breakpoint_xs": 1,
+        "breakpoint_sm": 2,
+        "breakpoint_md": 2,
+        "breakpoint_lg": 3,
+        "breakpoint_xl": 4,
+        "breakpoint_xxl": 6,
+        "pt": 0,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "template-product",
+    "a048e36f-1b13-4ad9-9fdd-e392f0e9489c",
+    "5ca5d2db-2cba-4423-b260-a6a8749b20a8"
+  ]
+}

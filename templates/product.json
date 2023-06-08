@@ -13,13 +13,21 @@
           "type": "richtext",
           "settings": {
             "title": "Shipping & Returns",
-            "description": "<p>Feel free to create additional blocks like this for <strong>Shipping, Payments, etc <\/strong>through the Shopify Theme editor. Also, you may easily adjust their order by dragging and dropping.<\/p>"
+            "description": "<p>Free Standard Shipping Over $50<\/p><p>30-Day Return Policy! <\/p>"
+          }
+        },
+        "db9df040-9273-4237-8c57-f96ad3d6a57f": {
+          "type": "richtext",
+          "settings": {
+            "title": "Care Guide",
+            "description": ""
           }
         }
       },
       "block_order": [
         "58913963-afac-40f1-aaef-9a8b2084dc99",
-        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5"
+        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5",
+        "db9df040-9273-4237-8c57-f96ad3d6a57f"
       ],
       "settings": {
         "title_size": "h2",
@@ -69,11 +77,29 @@
         "mt": 0,
         "mb": 0
       }
+    },
+    "07dcb1e0-bad4-4b8a-ac2a-c0f71b21d709": {
+      "type": "html",
+      "settings": {
+        "html": "<ul class=\"list-group\">\n  <li class=\"list-group-item\">An item<\/li>\n  <li class=\"list-group-item\">A second item<\/li>\n  <li class=\"list-group-item\">A third item<\/li>\n  <li class=\"list-group-item\">A fourth item<\/li>\n  <li class=\"list-group-item\">And a fifth one<\/li>\n<\/ul> <div class=\"modal\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\">Modal title<\/h5>\n        <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"><\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        <p>Modal body text goes here.<\/p>\n      <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\">Save changes<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n<div>\n<img src=\"https:\/\/files.cdn.printful.com\/upload\/measure-yourself\/c8\/c8a0228298e43dfac3ccc1e420e99529_l?v=1652962719\"> \n<div>\n<h6>A Length<\/h6>\n<p>Place the end of the tape beside the collar at the top of the tee (Highest Point Shoulder). Pull the tape measure to the bottom of the shirt.<\/p>\n<h6>B Chest<\/h6>\n<p>Measure yourself around the fullest part of your chest. Keep the tape measure horizontal.<\/p> \n<\/div>\n<\/div>\n<div class=\"table-responsive dynamic\" data-unit-system=\"imperial\">\n<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td> <\/td>\n<td><strong>BODY LENGTH (inches)<\/strong><\/td>\n<td><strong>BODY WIDTH (inches)<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>XS<\/strong><\/td>\n<td>27<\/td>\n<td>17 ½<\/td>\n<\/tr>\n<tr>\n<td><strong>S<\/strong><\/td>\n<td>28<\/td>\n<td>19<\/td>\n<\/tr>\n<tr>\n<td><strong>M<\/strong><\/td>\n<td>29<\/td>\n<td>20 ½<\/td>\n<\/tr>\n<tr>\n<td><strong>L<\/strong><\/td>\n<td>30<\/td>\n<td>22<\/td>\n<\/tr>\n<tr>\n<td><strong>XL<\/strong><\/td>\n<td>31<\/td>\n<td>24<\/td>\n<\/tr>\n<tr>\n<td><strong>2XL<\/strong><\/td>\n<td>32<\/td>\n<td>26<\/td>\n<\/tr>\n<tr>\n<td><strong>3XL<\/strong><\/td>\n<td>33<\/td>\n<td>28<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n<div class=\"table-responsive dynamic\" data-unit-system=\"metric\">\n<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td> <\/td>\n<td><strong>BODY LENGTH (cm)<\/strong><\/td>\n<td><strong>BODY WIDTH (cm)<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>XS<\/strong><\/td>\n<td>68.6<\/td>\n<td>44.5<\/td>\n<\/tr>\n<tr>\n<td><strong>S<\/strong><\/td>\n<td>71.1<\/td>\n<td>48.3<\/td>\n<\/tr>\n<tr>\n<td><strong>M<\/strong><\/td>\n<td>73.7<\/td>\n<td>52<\/td>\n<\/tr>\n<tr>\n<td><strong>L<\/strong><\/td>\n<td>76.2<\/td>\n<td>55.9<\/td>\n<\/tr>\n<tr>\n<td><strong>XL<\/strong><\/td>\n<td>78.7<\/td>\n<td>61<\/td>\n<\/tr>\n<tr>\n<td><strong>2XL<\/strong><\/td>\n<td>81.3<\/td>\n<td>66<\/td>\n<\/tr>\n<tr>\n<td><strong>3XL<\/strong><\/td>\n<td>83.8<\/td>\n<td>71.1<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-center",
+        "title": "Size Guide",
+        "title_size": "h2",
+        "description": "<h3>Measure yourself<\/h3><p>Measurements are provided by suppliers.<\/p><p>Product measurements may vary by up to 2\" (5 cm).<\/p>",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
     }
   },
   "order": [
     "template-product",
     "a048e36f-1b13-4ad9-9fdd-e392f0e9489c",
-    "5ca5d2db-2cba-4423-b260-a6a8749b20a8"
+    "5ca5d2db-2cba-4423-b260-a6a8749b20a8",
+    "07dcb1e0-bad4-4b8a-ac2a-c0f71b21d709"
   ]
 }

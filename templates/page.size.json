@@ -5,10 +5,11 @@
       "blocks": {
         "1652689498756fb688-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "img_mobile": "shopify:\/\/shop_images\/lifestyle-2-mobile.jpg",
             "img_mobile_height": 360,
             "img_mobile_opacity": 0.7,
+            "img_desktop": "shopify:\/\/shop_images\/lifestyle-2.jpg",
             "img_desktop_height": 600,
             "img_desktop_opacity": 0.7,
             "title": "",
@@ -36,7 +37,6 @@
     },
     "1652689700430c7f0b": {
       "type": "richtext",
-      "disabled": true,
       "settings": {
         "bg_color": "bg-white text-dark",
         "max_width": "768",
@@ -55,29 +55,8 @@
         "mb": 0
       }
     },
-    "1732f03b-1728-40a6-8bdf-a5eacfc6997f": {
-      "type": "richtext",
-      "settings": {
-        "bg_color": "bg-white text-dark",
-        "max_width": "768",
-        "text_align": "text-start",
-        "title": "About us",
-        "title_size": "h1",
-        "description": "<p>Welcome to Iron Fist Wrestling!<\/p><p> <\/p><p>At Iron Fist Wrestling, we are passionate about two things: wrestling and providing high-quality custom apparel and wrestling products to our loyal customers. We understand the dedication and spirit that goes into the world of wrestling, and our goal is to support wrestlers, fans, and enthusiasts in showcasing their love for the sport.<\/p><p> <\/p><p>Our team is composed of wrestling enthusiasts who have been part of the wrestling community for years. We've witnessed the fierce determination, strength, and resilience that wrestlers exhibit both in and out of the ring. That's why we are committed to creating products that reflect the energy and passion of this extraordinary sport.<\/p><p> <\/p><p>When it comes to custom apparel, we pride ourselves on offering a wide range of options to suit every wrestler's style and preferences. Whether you're a professional wrestler, a coach, or a fan, we've got you covered. From personalized t-shirts and hoodies to wrestling singlets and gear, we ensure that our products are crafted with the utmost care and attention to detail.<\/p><p> <\/p><p>But we don't stop at apparel. Our e-commerce store is also stocked with a variety of wrestling products and accessories. We understand the importance of having the right equipment to enhance your performance and ensure your safety. That's why we offer a selection of wrestling shoes, knee pads, headgear, and other essential gear, all sourced from reputable brands known for their quality and durability.<\/p><p> <\/p><p>At Iron Fist Wrestling, customer satisfaction is our top priority. We strive to provide a seamless shopping experience, from browsing our website to receiving your order. Our user-friendly interface, secure payment options, and efficient shipping ensure that your products arrive promptly and in excellent condition.<\/p><p> <\/p><p>We also take pride in our commitment to outstanding customer service. If you have any questions, or concerns, or need assistance, our knowledgeable and friendly team is always here to help. We value your feedback and continuously work to improve our products and services based on your input.<\/p><p> <\/p><p>Join the Iron Fist Wrestling community today and experience the excitement of wrestling like never before. Whether you're a wrestler, a fan, or someone looking for the perfect gift for a wrestling enthusiast, we've got what you need. Embrace your passion, wear it proudly, and let Iron Fist Wrestling be your trusted partner in all things wrestling.<\/p><p> <\/p><p>Thank you for choosing Iron Fist Wrestling. We're excited to serve you and be part of your wrestling journey!<\/p>",
-        "description_size": "fs-6",
-        "btn_text": "",
-        "btn_url": "",
-        "btn_color": "btn-outline-primary",
-        "btn_size": "",
-        "pt": 10,
-        "pb": 10,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "751e8a6f-3175-422f-918b-79bfa3efbba6": {
       "type": "cards-with-image",
-      "disabled": true,
       "blocks": {
         "e6fbab57-3cca-47b2-bb1b-e2b18653ae1b": {
           "type": "item",
@@ -86,6 +65,7 @@
             "shadow": "shadow-sm",
             "border_color": "",
             "border_width": 1,
+            "img": "shopify:\/\/shop_images\/collection-1.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "John Doe",
@@ -105,6 +85,7 @@
             "shadow": "shadow-sm",
             "border_color": "",
             "border_width": 1,
+            "img": "shopify:\/\/shop_images\/collection-6.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "Jane Doe",
@@ -124,6 +105,7 @@
             "shadow": "shadow-sm",
             "border_color": "",
             "border_width": 1,
+            "img": "shopify:\/\/shop_images\/collection-4.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "John Doe",
@@ -143,6 +125,7 @@
             "shadow": "shadow-sm",
             "border_color": "",
             "border_width": 1,
+            "img": "shopify:\/\/shop_images\/collection-2.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "Jane Doe",
@@ -172,6 +155,32 @@
         "row_xs": 1,
         "row_sm": 2,
         "row_lg": 4,
+        "pt": 10,
+        "pb": 10,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "bcc4442b-9440-4589-9f26-b0c513404d8c": {
+      "type": "image-with-text",
+      "settings": {
+        "bg_color": "",
+        "text_align": "text-start",
+        "image": "shopify:\/\/shop_images\/collection-5.jpg",
+        "img_orientation": "landscape",
+        "img_crop": "center",
+        "img_border": "img-thumbnail",
+        "img_align_desktop": "flex-lg-row",
+        "title": "The Best Products!",
+        "title_size": "h2",
+        "subtitle": "Some Optional Subtitle",
+        "subtitle_size": "fs-6",
+        "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "Shop now",
+        "btn_url": "shopify:\/\/collections\/all",
+        "btn_color": "btn-primary",
+        "btn_size": "",
         "pt": 10,
         "pb": 10,
         "mt": 0,
@@ -211,8 +220,8 @@
   "order": [
     "165268949817e427ae",
     "1652689700430c7f0b",
-    "1732f03b-1728-40a6-8bdf-a5eacfc6997f",
     "751e8a6f-3175-422f-918b-79bfa3efbba6",
+    "bcc4442b-9440-4589-9f26-b0c513404d8c",
     "d751c1ef-ae9a-4d2f-b415-f968dcca9f73",
     "9ef7cc85-571e-4685-b0f4-c655656a9c8c"
   ]

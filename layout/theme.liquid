@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ request.locale.iso_code }}">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="{{ settings.color_primary }}">
@@ -10,18 +10,18 @@
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
 
     {%- unless settings.favicon == blank -%}
-        <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: '32', height: '32' }}">
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: '32', height: '32' }}">
     {%- endunless -%}
 
     <title>
-        {{ page_title }}
-        {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-        {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-        {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {{ page_title }}
+      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
     {% if page_description %}
-        <meta name="description" content="{{ page_description | escape }}">
+      <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
     {% render 'meta-tags' %}
@@ -39,19 +39,19 @@
     <link href="{{ 'custom.css' | asset_url }}" rel="stylesheet">
 
     <script>
-        Shopify.money_format = "{{ shop.money_format }}"
-        window.theme = {
-            product: {
-                addToCart: '{{ 'product.add_to_cart' | t }}',
-                addedToCart: '{{ 'product.added_to_cart' | t }}',
-                soldOut: '{{ 'product.sold_out' | t }}',
-                unavailable: '{{ 'product.unavailable' | t }}',
-                priceRegular: '{{ 'product.price_regular' | t }}',
-                priceFrom: '{{ 'product.price_from' | t }}',
-                priceSale: '{{ 'product.price_sale' | t }}',
-                save: '{{ 'product.save' | t }}',
-            }
-        }
+      Shopify.money_format = "{{ shop.money_format }}"
+      window.theme = {
+          product: {
+              addToCart: '{{ 'product.add_to_cart' | t }}',
+              addedToCart: '{{ 'product.added_to_cart' | t }}',
+              soldOut: '{{ 'product.sold_out' | t }}',
+              unavailable: '{{ 'product.unavailable' | t }}',
+              priceRegular: '{{ 'product.price_regular' | t }}',
+              priceFrom: '{{ 'product.price_from' | t }}',
+              priceSale: '{{ 'product.price_sale' | t }}',
+              save: '{{ 'product.save' | t }}',
+          }
+      }
     </script>
 
     <script src="{{ 'vendor-bootstrap.bundle.min.js' | asset_url }}" defer></script>
@@ -63,32 +63,30 @@
     <script src="{{ 'product.js' | asset_url }}" defer></script>
     <script src="{{ 'cart.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
+  </head>
 
-</head>
-
-<body class="{{ request.page_type | prepend: 'page-type-' }}">
+  <body class="{{ request.page_type | prepend: 'page-type-' }}">
     <a class="visually-hidden-focusable" href="#main">
-        {{ 'general.accessibility.skip_content' | t }}
+      {{ 'general.accessibility.skip_content' | t }}
     </a>
-    
-    {% liquid 
-        section 'announcement-bar' 
-        section 'navbar' 
+
+    {% liquid
+      section 'announcement-bar'
+      section 'navbar'
     %}
 
     <main id="main">
-        {{ content_for_layout }}
+      {{ content_for_layout }}
     </main>
 
     {% liquid
-        section 'newsletter'
-        section 'footer'
+      section 'newsletter'
+      section 'footer'
     %}
 
     {% liquid
-        render 'offcanvas-cart'
-        render 'offcanvas-search'
+      render 'offcanvas-cart'
+      render 'offcanvas-search'
     %}
-</body>
+  </body>
 </html>
-    

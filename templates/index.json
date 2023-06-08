@@ -3,54 +3,34 @@
     "carousel": {
       "type": "carousel",
       "blocks": {
-        "7c7200c0-9e25-4d6f-8e80-68098f92561e": {
-          "type": "slide",
-          "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/lifestyle-1-mobile.jpg",
-            "img_mobile_height": 500,
-            "img_mobile_opacity": 0.7,
-            "img_desktop": "shopify:\/\/shop_images\/lifestyle-1.jpg",
-            "img_desktop_height": 800,
-            "img_desktop_opacity": 0.7,
-            "title": "Welcome to KS BootShop Theme",
-            "title_size": "h2",
-            "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
-            "description_size": "fs-5",
-            "btn_text": "Download Free",
-            "btn_url": "https:\/\/www.kondasoft.com\/products\/ks-bootshop",
-            "btn_color": "btn-primary",
-            "btn_size": ""
-          }
-        },
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/lifestyle-2-mobile.jpg",
-            "img_mobile_height": 500,
+            "img_mobile": "shopify:\/\/shop_images\/IMG_0173.png",
+            "img_mobile_height": 300,
             "img_mobile_opacity": 0.7,
-            "img_desktop": "shopify:\/\/shop_images\/lifestyle-2.jpg",
-            "img_desktop_height": 800,
+            "img_desktop": "shopify:\/\/shop_images\/27C90D93-F763-4577-83EB-2D600B404A03.png",
+            "img_desktop_height": 450,
             "img_desktop_opacity": 0.7,
-            "title": "Simple to Use, Easy to Customize",
+            "title": "Unleash The Power Of The Iron Fist",
             "title_size": "h2",
-            "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
-            "description_size": "fs-5",
-            "btn_text": "Download Free",
-            "btn_url": "https:\/\/www.kondasoft.com",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "shopify:\/\/collections\/all",
             "btn_color": "btn-primary",
             "btn_size": ""
           }
         }
       },
       "block_order": [
-        "7c7200c0-9e25-4d6f-8e80-68098f92561e",
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96"
       ],
       "settings": {
         "controls": true,
         "indicators": true,
-        "autoplay": true,
-        "animation": "slide",
+        "autoplay": false,
+        "animation": "slide carousel-fade",
         "mt": 0,
         "mb": 0
       }
@@ -59,24 +39,23 @@
       "type": "featured-products",
       "settings": {
         "products": [
-          "bag-series-1",
-          "glasses-series-3",
-          "heat-series-2",
-          "lamp-series-2",
-          "watch-series-1",
-          "bag-series-3",
-          "lamp-series-1",
-          "glasses-series-2"
+          "iron-fist-wrestling-long-sleeve-fitted-crew",
+          "usa-wrestling-hoodie",
+          "usa-wrestling-hoodie-1",
+          "usa-wrestling-short-sleeve-t-shirt",
+          "usa-wrestling-sweatshirt",
+          "wrestling-fitted-tee"
         ],
         "bg_color": "",
         "text_align": "text-center",
-        "title": "Featured Products",
+        "title": "New Arrivals",
         "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
+        "description": "",
         "description_size": "fs-6",
         "product_img_orientation": "square",
-        "product_img_border": "img-thumbnail",
+        "product_img_border": "rounded",
         "product_title_size": "h6",
+        "mobile_scroll": true,
         "breakpoint_xs": 2,
         "breakpoint_sm": 2,
         "breakpoint_md": 2,
@@ -86,7 +65,7 @@
         "btn_show": true,
         "btn_text": "View more products »",
         "btn_url": "shopify:\/\/collections\/all",
-        "btn_color": "btn-outline-secondary",
+        "btn_color": "btn-primary",
         "pt": 10,
         "pb": 11,
         "mt": 0,
@@ -99,65 +78,49 @@
         "8c529e86-7b51-4d75-baa3-1d4681b8c75c": {
           "type": "collection",
           "settings": {
-            "collection": "men",
-            "title": ""
-          }
-        },
-        "77c3798e-6857-46a0-92bc-df3c48109366": {
-          "type": "collection",
-          "settings": {
-            "collection": "women",
+            "collection": "wrestling-crewnecks",
             "title": ""
           }
         },
         "ec048dd5-f669-4b0e-811b-cd904f95bde5": {
           "type": "collection",
           "settings": {
-            "collection": "children",
+            "collection": "wrestling-hoodies",
+            "title": ""
+          }
+        },
+        "77c3798e-6857-46a0-92bc-df3c48109366": {
+          "type": "collection",
+          "settings": {
+            "collection": "wrestling-short-sleeve-tee",
             "title": ""
           }
         },
         "ec7164c1-d2b0-4fd9-b81f-18204c938d9a": {
           "type": "collection",
           "settings": {
-            "collection": "babies",
-            "title": ""
-          }
-        },
-        "9e860958-3e5a-44e1-ace8-49e74c8ea9ef": {
-          "type": "collection",
-          "settings": {
-            "collection": "latest",
-            "title": ""
-          }
-        },
-        "e86d0893-60ca-4bbf-aa40-c1ea7de37bec": {
-          "type": "collection",
-          "settings": {
-            "collection": "sale",
+            "collection": "usa-wrestling",
             "title": ""
           }
         }
       },
       "block_order": [
         "8c529e86-7b51-4d75-baa3-1d4681b8c75c",
-        "77c3798e-6857-46a0-92bc-df3c48109366",
         "ec048dd5-f669-4b0e-811b-cd904f95bde5",
-        "ec7164c1-d2b0-4fd9-b81f-18204c938d9a",
-        "9e860958-3e5a-44e1-ace8-49e74c8ea9ef",
-        "e86d0893-60ca-4bbf-aa40-c1ea7de37bec"
+        "77c3798e-6857-46a0-92bc-df3c48109366",
+        "ec7164c1-d2b0-4fd9-b81f-18204c938d9a"
       ],
       "settings": {
         "bg_color": "bg-light text-dark",
         "text_align": "text-center",
-        "title": "Featured Collections",
+        "title": "",
         "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
+        "description": "",
         "description_size": "fs-6",
-        "collection_img_orientation": "landscape",
+        "collection_img_orientation": "square",
         "collection_img_border": "img-thumbnail",
         "btn_text": "View all collections",
-        "btn_color": "btn-outline-secondary",
+        "btn_color": "btn-primary",
         "breakpoint_xs": 1,
         "breakpoint_sm": 2,
         "breakpoint_md": 2,
@@ -170,140 +133,9 @@
         "mb": 0
       }
     },
-    "16527743361f98366e": {
-      "type": "cards-with-image",
-      "blocks": {
-        "a31f2a51-209c-40f5-8782-38280ee0b30d": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow-sm",
-            "border_color": "",
-            "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-5.jpg",
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-outline-primary",
-            "btn_size": ""
-          }
-        },
-        "8e95535f-a8b1-440c-8dc1-47263a1da13e": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow",
-            "border_color": "border-primary",
-            "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-3.jpg",
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-primary",
-            "btn_size": ""
-          }
-        },
-        "9450772e-4e92-4251-97cd-69e844e7fe9f": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow-sm",
-            "border_color": "",
-            "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-2.jpg",
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-outline-primary",
-            "btn_size": ""
-          }
-        },
-        "5f2ca4c4-dfa9-477b-95dc-1887e7efbb45": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow-sm",
-            "border_color": "",
-            "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-4.jpg",
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-outline-primary",
-            "btn_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "a31f2a51-209c-40f5-8782-38280ee0b30d",
-        "8e95535f-a8b1-440c-8dc1-47263a1da13e",
-        "9450772e-4e92-4251-97cd-69e844e7fe9f",
-        "5f2ca4c4-dfa9-477b-95dc-1887e7efbb45"
-      ],
-      "settings": {
-        "bg_color": "bg-white text-dark",
-        "text_align": "text-center",
-        "title": "Cards With Image",
-        "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
-        "description_size": "fs-6",
-        "row_xs": 1,
-        "row_sm": 2,
-        "row_lg": 4,
-        "pt": 10,
-        "pb": 10,
-        "mt": 0,
-        "mb": 0
-      }
-    },
-    "1651754599ab801902": {
-      "type": "image-with-text",
-      "settings": {
-        "bg_color": "bg-light text-body",
-        "text_align": "text-start",
-        "image": "shopify:\/\/shop_images\/no-image.jpg",
-        "img_orientation": "landscape-x2",
-        "img_crop": "center",
-        "img_border": "img-thumbnail",
-        "img_align_desktop": "flex-lg-row",
-        "title": "Image With Text",
-        "title_size": "h2",
-        "subtitle": "Some Optional Subtitle",
-        "subtitle_size": "fs-6",
-        "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "description_size": "fs-6",
-        "btn_text": "Learn more",
-        "btn_url": "#",
-        "btn_color": "btn-primary",
-        "btn_size": "",
-        "pt": 11,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "f79472bd-ea06-4791-b546-621b9bdf76a3": {
       "type": "external-video",
+      "disabled": true,
       "settings": {
         "external_video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "bg_color": "",
@@ -317,6 +149,7 @@
     },
     "165175524396f2667c": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "1651755243f618171d-0": {
           "type": "text",
@@ -383,26 +216,6 @@
         "mb": 0
       }
     },
-    "c74ebbe2-8be5-4594-80c9-25bb5250e03b": {
-      "type": "richtext",
-      "settings": {
-        "bg_color": "",
-        "max_width": "768",
-        "text_align": "text-center",
-        "title": "Richtext Section",
-        "title_size": "h2",
-        "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
-        "description_size": "fs-6",
-        "btn_text": "Download Free",
-        "btn_url": "https:\/\/www.kondasoft.com",
-        "btn_color": "btn-outline-primary",
-        "btn_size": "",
-        "pt": 6,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "16517348541d37c171": {
       "type": "separator",
       "settings": {
@@ -414,6 +227,7 @@
     },
     "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b": {
       "type": "html",
+      "disabled": true,
       "settings": {
         "html": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d5458.176837636101!2d7.264440042281333!3d43.69609386612476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cddaa162b4a50b%3A0x77566707bed909ce!2sFontaine%20du%20Soleil!5e0!3m2!1sen!2s!4v1651756644654!5m2!1sen!2s\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "bg_color": "",
@@ -434,11 +248,8 @@
     "carousel",
     "165151877352b831f8",
     "1651733459a1bea1c2",
-    "16527743361f98366e",
-    "1651754599ab801902",
     "f79472bd-ea06-4791-b546-621b9bdf76a3",
     "165175524396f2667c",
-    "c74ebbe2-8be5-4594-80c9-25bb5250e03b",
     "16517348541d37c171",
     "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b"
   ]
